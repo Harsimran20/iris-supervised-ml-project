@@ -21,10 +21,12 @@ The Iris dataset contains flower measurements for three species:
 Features Used
 -----------------------------------------------------------------------
 Feature	Description
+-----------------------------------------------------------------------
 SepalLengthCm	Length of sepal
-SepalWidthCm	Width of sepal
-PetalLengthCm	Length of petal
-PetalWidthCm	Width of petal
+--------------------------------------------------------------------
+- SepalWidthCm	Width of sepal
+- PetalLengthCm	Length of petal
+- PetalWidthCm	Width of petal
 ----------------------------------------------------------------------
 🛠️ Technologies & Libraries
 ----------------------------------------------------------------------
@@ -82,20 +84,23 @@ Evaluation metrics used:
 -------------------------------------------------------------------------------------------------
 🔹 K-Nearest Neighbors (KNN)
 knn = KNeighborsClassifier(n_neighbors=3)
+--------------------------------------------------------------
 🔹 Logistic Regression
 lr = LogisticRegression()
+--------------------------------------------------------------
 🔹 Gaussian Naive Bayes
 nb = GaussianNB()
+--------------------------------------------------------------
 📊 Performance Comparison
 ---------------------------------------------------------------------------------------------
 The project compares all models based on:
-
-Metric	Description
-Accuracy	Correct predictions
-Precision	Positive prediction quality
-Recall	Ability to find positives
-F1-Score	Balance between precision & recall
-Execution Time	Training + prediction speed
+---------------------------------------------------------------------------------------------
+- Metric	Description
+- Accuracy	Correct predictions
+- Precision	Positive prediction quality
+- Recall	Ability to find positives
+- F1-Score	Balance between precision & recall
+- Execution Time	Training + prediction speed
 
 ▶️ How to Run the Project
 -----------------------------------------------------------------------------------------------
