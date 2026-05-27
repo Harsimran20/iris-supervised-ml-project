@@ -116,7 +116,7 @@ python Iris_Flower_Supervised_ML.py
 - Naive Bayes Accuracy: 1.0
 🎯 Learning Outcomes
 
-Through this project, you will learn:
+Through this project, one can learn:
 
 📌 Data preprocessing
 📌 Label encoding
