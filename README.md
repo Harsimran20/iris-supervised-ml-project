@@ -14,9 +14,9 @@ The project uses:
 
 The Iris dataset contains flower measurements for three species:
 
-🌸 Iris-setosa
-🌺 Iris-versicolor
-🌷 Iris-virginica
+- 🌸 Iris-setosa
+- 🌺 Iris-versicolor
+- 🌷 Iris-virginica
 
 Features Used
 -----------------------------------------------------------------------
@@ -40,28 +40,26 @@ Tool / Library	Purpose
 ├── Iris (1).csv
 └── README.md
 ⚙️ Machine Learning Workflow
-1️⃣ Import Libraries
-
+- 1️⃣ Import Libraries
 The project imports essential libraries for:
------------------------------------------------------------------------
 Data preprocessing
 Model building
 Performance evaluation
-2️⃣ Load Dataset
+- 2️⃣ Load Dataset
 df = pd.read_csv("Iris (1).csv")
-3️⃣ Data Preprocessing
+- 3️⃣ Data Preprocessing
 Splitting features and target
 Encoding species labels using LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
-4️⃣ Train-Test Split
+- 4️⃣ Train-Test Split
 
 Dataset is divided into:
 ---------------------------------------------------------------------------------------
 📘 Training Set → 80%
 📕 Testing Set → 20%
 train_test_split(test_size=0.2, random_state=42)
-5️⃣ Model Training
+- 5️⃣ Model Training
 
 The following models are trained:
 --------------------------------------------------------------------------------------------------
@@ -69,7 +67,7 @@ Model	Description
 🔹 KNN	Classification based on nearest neighbors
 🔹 Logistic Regression	Statistical classification model
 🔹 Gaussian Naive Bayes	Probabilistic classifier
-6️⃣ Model Evaluation
+- 6️⃣ Model Evaluation
 
 Evaluation metrics used:
 ------------------------------------------------------------------------------------------------
@@ -104,18 +102,18 @@ The project compares all models based on:
 
 ▶️ How to Run the Project
 -----------------------------------------------------------------------------------------------
-Step 1️⃣ Clone Repository
+- Step 1️⃣ Clone Repository
 git clone https://github.com/your-username/iris-flower-classification.git
-Step 2️⃣ Install Dependencies
+- Step 2️⃣ Install Dependencies
 pip install pandas scikit-learn
-Step 3️⃣ Run the Program
+- Step 3️⃣ Run the Program
 python Iris_Flower_Supervised_ML.py
 
 📷 Sample Output
 --------------------------------------------------------------------------------------------------
-KNN Accuracy: 1.0
-Logistic Regression Accuracy: 1.0
-Naive Bayes Accuracy: 1.0
+- KNN Accuracy: 1.0
+- Logistic Regression Accuracy: 1.0
+- Naive Bayes Accuracy: 1.0
 🎯 Learning Outcomes
 
 Through this project, you will learn:
